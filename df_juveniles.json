@@ -1,0 +1,2002 @@
+{
+  "maestro_jugadores": [
+    {
+      "nombre": "ABARZA IGNACIO URIEL",
+      "dni": "46211790",
+      "nacimiento": "15/03/2006",
+      "obra_social": "OSPJN",
+      "afiliado": "45078/21",
+      "telefono": "",
+      "pierna_habil": "Sin Definir"
+    },
+    {
+      "nombre": "ALAYO ARZOLA IARLEY JADILSON",
+      "dni": "72079419",
+      "nacimiento": "25/03/2006",
+      "obra_social": "ENSALUD",
+      "afiliado": "96400698",
+      "telefono": "",
+      "pierna_habil": "Sin Definir"
+    },
+    {
+      "nombre": "BIMA SANTINO PABLO",
+      "dni": "46660924",
+      "nacimiento": "02/05/2006",
+      "obra_social": "APROSS (Córdoba)",
+      "afiliado": "2-21404574-04-7",
+      "telefono": "",
+      "pierna_habil": "Sin Definir"
+    },
+    {
+      "nombre": "BOURQUIN JUAN IGNACIO",
+      "dni": "46329651",
+      "nacimiento": "27/02/2005",
+      "obra_social": "swiss medical",
+      "afiliado": "800006 0237558040025",
+      "telefono": "",
+      "pierna_habil": "Sin Definir"
+    },
+    {
+      "nombre": "BURGOS TORRES MAXIMO",
+      "dni": "46265094",
+      "nacimiento": "01/02/2005",
+      "obra_social": "IOMA",
+      "afiliado": "224619277802",
+      "telefono": "",
+      "pierna_habil": "Sin Definir"
+    },
+    {
+      "nombre": "CACERES GRAY THIAGO NAHUEL",
+      "dni": "47388944",
+      "nacimiento": "27/11/2006",
+      "obra_social": "ENSALUD",
+      "afiliado": "4738894400",
+      "telefono": "",
+      "pierna_habil": "Sin Definir"
+    },
+    {
+      "nombre": "CAMPO IGNACIO",
+      "dni": "46634267",
+      "nacimiento": "30/03/2005",
+      "obra_social": "WILLAN HOPE AT SALUD",
+      "afiliado": "1-46634267 PLAN L35",
+      "telefono": "",
+      "pierna_habil": "Sin Definir"
+    },
+    {
+      "nombre": "CORSARO IAN SANTINO",
+      "dni": "47396035",
+      "nacimiento": "15/08/2006",
+      "obra_social": "IOMA",
+      "afiliado": "1251484195/02",
+      "telefono": "",
+      "pierna_habil": "Sin Definir"
+    },
+    {
+      "nombre": "COSCIO IGNACIO ADRIAN",
+      "dni": "47403526",
+      "nacimiento": "16/06/2006",
+      "obra_social": "SWISS MEDICAL-ASE CENCOSALUD",
+      "afiliado": "800061061470021000/00",
+      "telefono": "",
+      "pierna_habil": "Sin Definir"
+    },
+    {
+      "nombre": "COSTA LUCAS GABRIEL",
+      "dni": "52219585",
+      "nacimiento": "23/06/2006",
+      "obra_social": "Swiss Medical",
+      "afiliado": "8000061904465011006",
+      "telefono": "",
+      "pierna_habil": "Sin Definir"
+    },
+    {
+      "nombre": "ERLINCH JOEL ALEJANDRO",
+      "dni": "47176715",
+      "nacimiento": "01/02/2006",
+      "obra_social": "OSUTHGRA",
+      "afiliado": "20-29765876-0/03",
+      "telefono": "",
+      "pierna_habil": "Sin Definir"
+    },
+    {
+      "nombre": "GIMENEZ MATIAS JOAQUIN",
+      "dni": "47223356",
+      "nacimiento": "06/05/2006",
+      "obra_social": "ENSALUD",
+      "afiliado": "4722335600",
+      "telefono": "",
+      "pierna_habil": "Sin Definir"
+    },
+    {
+      "nombre": "GRYCENIUK TOBIAS",
+      "dni": "46979050",
+      "nacimiento": "17/04/2006",
+      "obra_social": "SANCOR SEGURO",
+      "afiliado": "33661301012",
+      "telefono": "",
+      "pierna_habil": "Sin Definir"
+    },
+    {
+      "nombre": "IDARRAGA ZULUAGA JUAN DANIEL",
+      "dni": "1013108875",
+      "nacimiento": "12/03/2006",
+      "obra_social": "ENSALUD",
+      "afiliado": "96119127",
+      "telefono": "",
+      "pierna_habil": "Sin Definir"
+    },
+    {
+      "nombre": "KALINGER DI NAPOLI FACUNDO",
+      "dni": "46320394",
+      "nacimiento": "30/01/2005",
+      "obra_social": "SEMPRE (La Pampa)",
+      "afiliado": "20 46320394-7",
+      "telefono": "",
+      "pierna_habil": "Sin Definir"
+    },
+    {
+      "nombre": "KALINGER DI NAPOLI IGNACIO",
+      "dni": "47302245",
+      "nacimiento": null,
+      "obra_social": "SEMPRE (La Pampa)",
+      "afiliado": "20 47302245 2",
+      "telefono": "",
+      "pierna_habil": "Sin Definir"
+    },
+    {
+      "nombre": "LUCIANI MATEO BENITO",
+      "dni": "47396035",
+      "nacimiento": "15/08/2006",
+      "obra_social": "Poder Judicial de la Nacion",
+      "afiliado": "39324/21",
+      "telefono": "",
+      "pierna_habil": "Sin Definir"
+    },
+    {
+      "nombre": "LUGO LOPEZ ERNESTO",
+      "dni": "46153639",
+      "nacimiento": "16/02/2005",
+      "obra_social": "obra social de  trabajadores del petroleo y gas privado del chubut",
+      "afiliado": "1-2860-7",
+      "telefono": "",
+      "pierna_habil": "Sin Definir"
+    },
+    {
+      "nombre": "MACIEL DAMIAN",
+      "dni": "46574417",
+      "nacimiento": "13/04/2005",
+      "obra_social": "ENSALUD",
+      "afiliado": "4657441700",
+      "telefono": "",
+      "pierna_habil": "Sin Definir"
+    },
+    {
+      "nombre": "MARTINEZ ALEXIS",
+      "dni": "46418718",
+      "nacimiento": "03/02/2005",
+      "obra_social": "IOMA",
+      "afiliado": "1267476148-03",
+      "telefono": "",
+      "pierna_habil": "Sin Definir"
+    },
+    {
+      "nombre": "MEDINA FERNANDO SANTIAGO",
+      "dni": "47099287",
+      "nacimiento": "09/01/2006",
+      "obra_social": "CONSTRUIR SALUD",
+      "afiliado": "47099287",
+      "telefono": "",
+      "pierna_habil": "Sin Definir"
+    },
+    {
+      "nombre": "MORA LAUTARO IVAN",
+      "dni": "46503125",
+      "nacimiento": "25/02/2005",
+      "obra_social": "ANDAR",
+      "afiliado": "20465031256 PLAN ESPECIAL",
+      "telefono": "",
+      "pierna_habil": "Sin Definir"
+    },
+    {
+      "nombre": "ORTIZ LUCAS ALEJANDRO",
+      "dni": "47388493",
+      "nacimiento": "06/10/2006",
+      "obra_social": "ENSALUD",
+      "afiliado": "4738849300",
+      "telefono": "",
+      "pierna_habil": "Sin Definir"
+    },
+    {
+      "nombre": "PALAZZO MAXIMO AGUSTIN",
+      "dni": "46500980",
+      "nacimiento": "06/06/2005",
+      "obra_social": "Medife",
+      "afiliado": "1-06531827-01/000",
+      "telefono": "",
+      "pierna_habil": "Sin Definir"
+    },
+    {
+      "nombre": "PEREZ THIAGO OMAR",
+      "dni": "47168947",
+      "nacimiento": "20/02/2006",
+      "obra_social": "ENSALUD",
+      "afiliado": "4716894700",
+      "telefono": "",
+      "pierna_habil": "Sin Definir"
+    },
+    {
+      "nombre": "POZA ADRIELVALENTIN",
+      "dni": "45687569",
+      "nacimiento": "22/02/2006",
+      "obra_social": "OBSBA",
+      "afiliado": "1359390812",
+      "telefono": "",
+      "pierna_habil": "Sin Definir"
+    },
+    {
+      "nombre": "RIEGEL MARIANO NICOLAS",
+      "dni": "47535569",
+      "nacimiento": "24/10/2006",
+      "obra_social": "O.S.PERS. DE LA CONSTRUCCION",
+      "afiliado": "20-47535569-6",
+      "telefono": "",
+      "pierna_habil": "Sin Definir"
+    },
+    {
+      "nombre": "RODRIGUEZ JORGE SANTIAGO",
+      "dni": "47405638",
+      "nacimiento": "30/05/2006",
+      "obra_social": "ENSALUD",
+      "afiliado": "47405638",
+      "telefono": "",
+      "pierna_habil": "Sin Definir"
+    },
+    {
+      "nombre": "SALABERRY MATIAS LIONEL",
+      "dni": "47456230",
+      "nacimiento": "05/09/2006",
+      "obra_social": "ENSALUD",
+      "afiliado": "4745623000",
+      "telefono": "",
+      "pierna_habil": "Sin Definir"
+    },
+    {
+      "nombre": "SALISCHIKER RUCCI THIAGO",
+      "dni": "47028488",
+      "nacimiento": "06/11/2005",
+      "obra_social": "SWISS MEDICAL",
+      "afiliado": "800006 1066710 02 1022",
+      "telefono": "",
+      "pierna_habil": "Sin Definir"
+    },
+    {
+      "nombre": "SAMBADE JOAQUIN TOMAS",
+      "dni": "47573081",
+      "nacimiento": "06/11/2006",
+      "obra_social": "OSDE",
+      "afiliado": "60668227 8 04 PLAN 2210 NG",
+      "telefono": "",
+      "pierna_habil": "Sin Definir"
+    },
+    {
+      "nombre": "SANCHEZ FACUNDO ANDRES",
+      "dni": "47276825",
+      "nacimiento": "17/04/2006",
+      "obra_social": "CHOFERES DE CAMIONES",
+      "afiliado": "248026-01",
+      "telefono": "",
+      "pierna_habil": "Sin Definir"
+    },
+    {
+      "nombre": "SARZYNISKI TOMAS",
+      "dni": "46582780",
+      "nacimiento": "21/03/2005",
+      "obra_social": "OBSBA",
+      "afiliado": "243911411",
+      "telefono": "",
+      "pierna_habil": "Sin Definir"
+    },
+    {
+      "nombre": "SEGOVIA SANTIAGO",
+      "dni": "45684467",
+      "nacimiento": "17/04/2005",
+      "obra_social": "PMO UNION PERSONAL",
+      "afiliado": "2672274",
+      "telefono": "",
+      "pierna_habil": "Sin Definir"
+    },
+    {
+      "nombre": "ACEVEDO THIAGO",
+      "dni": "48260576",
+      "nacimiento": "21/11/2007",
+      "obra_social": "Union PERSONAL",
+      "afiliado": "2704062019",
+      "telefono": "",
+      "pierna_habil": "Sin Definir"
+    },
+    {
+      "nombre": "ARANDA TOBIAS JAVIER",
+      "dni": "48036172",
+      "nacimiento": "11/07/2007",
+      "obra_social": "SWISS MEDICAL",
+      "afiliado": "8000060204897030000/00",
+      "telefono": "",
+      "pierna_habil": "Sin Definir"
+    },
+    {
+      "nombre": "BAEZ ELIAN ADRIEL",
+      "dni": "48382864",
+      "nacimiento": "03/12/2007",
+      "obra_social": "VIASANO SALUD",
+      "afiliado": "48382864",
+      "telefono": "",
+      "pierna_habil": "Sin Definir"
+    },
+    {
+      "nombre": "BATISTELA TISIANO BENJAMIN",
+      "dni": "47912213",
+      "nacimiento": "09/04/2007",
+      "obra_social": "UNIMET",
+      "afiliado": "3014791221301",
+      "telefono": "",
+      "pierna_habil": "Sin Definir"
+    },
+    {
+      "nombre": "BENITEZ JOAQUIN LEONEL",
+      "dni": "48237494",
+      "nacimiento": "17/09/2007",
+      "obra_social": "SANCOR SALUD",
+      "afiliado": "1564016/2",
+      "telefono": "",
+      "pierna_habil": "Sin Definir"
+    },
+    {
+      "nombre": "BOGADO SOLABARIETA LAUTARO",
+      "dni": "47655844",
+      "nacimiento": "24/02/2007",
+      "obra_social": "ENSALUD",
+      "afiliado": "4765584400",
+      "telefono": "",
+      "pierna_habil": "Sin Definir"
+    },
+    {
+      "nombre": "CARRO BAUTISTA",
+      "dni": "47884456",
+      "nacimiento": "15/05/2007",
+      "obra_social": "IOMA",
+      "afiliado": "2231482697/03",
+      "telefono": "",
+      "pierna_habil": "Sin Definir"
+    },
+    {
+      "nombre": "CASTELLANO MARTIN OSCAR",
+      "dni": "48613159",
+      "nacimiento": "30/12/2007",
+      "obra_social": "ENSALUD",
+      "afiliado": "4861315900",
+      "telefono": "",
+      "pierna_habil": "Sin Definir"
+    },
+    {
+      "nombre": "CATRIEL GERONIMO",
+      "dni": "47888193",
+      "nacimiento": "17/05/2007",
+      "obra_social": "IOMA",
+      "afiliado": "1296841302/03",
+      "telefono": "",
+      "pierna_habil": "Sin Definir"
+    },
+    {
+      "nombre": "CHIQUICHANO MATIAS",
+      "dni": "47934473",
+      "nacimiento": "01/06/2007",
+      "obra_social": "ENSALUD",
+      "afiliado": "47934473",
+      "telefono": "",
+      "pierna_habil": "Sin Definir"
+    },
+    {
+      "nombre": "COLMAN TOBIAS NAHUEL",
+      "dni": "48215535",
+      "nacimiento": "02/08/2007",
+      "obra_social": "GALENO",
+      "afiliado": "0207843101-03 PLAN AZUL 200",
+      "telefono": "",
+      "pierna_habil": "Sin Definir"
+    },
+    {
+      "nombre": "CORREA JOAQUIN NESTOR",
+      "dni": "47795078",
+      "nacimiento": "15/03/2007",
+      "obra_social": "EMPLEADOS MUNICIPALES DE 3 DE FEBRERO",
+      "afiliado": "14664/02",
+      "telefono": "",
+      "pierna_habil": "Sin Definir"
+    },
+    {
+      "nombre": "D AURIZIO MARTIN",
+      "dni": "47574718",
+      "nacimiento": "11/01/2007",
+      "obra_social": "Plan del Salud del Hospital Italiano",
+      "afiliado": "320129",
+      "telefono": "",
+      "pierna_habil": "Sin Definir"
+    },
+    {
+      "nombre": "DI MARCO ROCO",
+      "dni": "47846579",
+      "nacimiento": "29/08/2007",
+      "obra_social": "Seros",
+      "afiliado": "47846579",
+      "telefono": "",
+      "pierna_habil": "Sin Definir"
+    },
+    {
+      "nombre": "DOMINGUEZ DA SILVA DERLY DANIEL",
+      "dni": "47996846",
+      "nacimiento": "04/05/2007",
+      "obra_social": "OSEIV",
+      "afiliado": "23.892.918",
+      "telefono": "",
+      "pierna_habil": "Sin Definir"
+    },
+    {
+      "nombre": "FERREYRA TOBIAS BRANDON",
+      "dni": "48225839",
+      "nacimiento": "09/08/2007",
+      "obra_social": "OSMATA",
+      "afiliado": "48225839",
+      "telefono": "",
+      "pierna_habil": "Sin Definir"
+    },
+    {
+      "nombre": "FIGUEROA JUAN CRUZ",
+      "dni": "47793015",
+      "nacimiento": "15/02/2007",
+      "obra_social": "SWISS MEDICAL",
+      "afiliado": "800006 0555572 04 1046",
+      "telefono": "",
+      "pierna_habil": "Sin Definir"
+    },
+    {
+      "nombre": "GARECA JULIO AGUSTIN",
+      "dni": "48005299",
+      "nacimiento": "01/06/2007",
+      "obra_social": "CAMIONEROS",
+      "afiliado": "278485/03",
+      "telefono": "",
+      "pierna_habil": "Sin Definir"
+    },
+    {
+      "nombre": "GAUNA AXEL IVAN",
+      "dni": "47991702",
+      "nacimiento": "05/06/2007",
+      "obra_social": "ENSALUD",
+      "afiliado": "4799170200",
+      "telefono": "",
+      "pierna_habil": "Sin Definir"
+    },
+    {
+      "nombre": "GRADIN VALENTIN DAMIAN",
+      "dni": "48038742",
+      "nacimiento": "13/09/2007",
+      "obra_social": "DOSUBA",
+      "afiliado": "15399503",
+      "telefono": "",
+      "pierna_habil": "Sin Definir"
+    },
+    {
+      "nombre": "JAUREGUI SUAREZ FACUNDO",
+      "dni": "48458554",
+      "nacimiento": "21/12/2007",
+      "obra_social": "SANCOR SALUD",
+      "afiliado": "1125769/02",
+      "telefono": "",
+      "pierna_habil": "Sin Definir"
+    },
+    {
+      "nombre": "MALDONADO NAHUEL MATIAS",
+      "dni": "46989163",
+      "nacimiento": "27/02/2007",
+      "obra_social": "OBRA SOCIAL CHOFERES DE CAMIONES",
+      "afiliado": "165880/04",
+      "telefono": "",
+      "pierna_habil": "Sin Definir"
+    },
+    {
+      "nombre": "MARTINEZ BRIAN MAXIMILIANO",
+      "dni": "47845505",
+      "nacimiento": "25/02/2007",
+      "obra_social": "obra social de  trabajadores del petroleo y gas privado del chubut",
+      "afiliado": "25-47845505-5",
+      "telefono": "",
+      "pierna_habil": "Sin Definir"
+    },
+    {
+      "nombre": "MARTINEZ FABRIZIO JAVIER",
+      "dni": "48174361",
+      "nacimiento": "20/10/2007",
+      "obra_social": "en salud",
+      "afiliado": "4817436100",
+      "telefono": "",
+      "pierna_habil": "Sin Definir"
+    },
+    {
+      "nombre": "MENDEZ CARABAJAL LUCIANO",
+      "dni": "48110049",
+      "nacimiento": "27/06/2007",
+      "obra_social": "OSECAC",
+      "afiliado": "20337388095",
+      "telefono": "",
+      "pierna_habil": "Sin Definir"
+    },
+    {
+      "nombre": "PERNIA GIROTO CRISTIANO",
+      "dni": "95489502",
+      "nacimiento": "19/10/2007",
+      "obra_social": "OSDE",
+      "afiliado": "61 890877 2 04",
+      "telefono": "",
+      "pierna_habil": "Sin Definir"
+    },
+    {
+      "nombre": "PRAL RAMIRO BENJAMIN",
+      "dni": "47797055",
+      "nacimiento": "31/01/2007",
+      "obra_social": "OSECAC",
+      "afiliado": "27339409949",
+      "telefono": "",
+      "pierna_habil": "Sin Definir"
+    },
+    {
+      "nombre": "RODRIGUEZ LAUTARO AGUSTIN",
+      "dni": "48026857",
+      "nacimiento": "18/05/2007",
+      "obra_social": "OSPG",
+      "afiliado": "1147033H 1",
+      "telefono": "",
+      "pierna_habil": "Sin Definir"
+    },
+    {
+      "nombre": "SOSA THIAGO",
+      "dni": "51160322",
+      "nacimiento": "23/06/2007",
+      "obra_social": "EN TRAMITE",
+      "afiliado": null,
+      "telefono": "",
+      "pierna_habil": "Sin Definir"
+    },
+    {
+      "nombre": "SOTO MARTIN",
+      "dni": "48162311",
+      "nacimiento": "01/12/2007",
+      "obra_social": "UNION PERSONAL",
+      "afiliado": "00229075 029",
+      "telefono": "",
+      "pierna_habil": "Sin Definir"
+    },
+    {
+      "nombre": "URIBE SANDERS TOMAS NATANEL",
+      "dni": "48165098",
+      "nacimiento": "27/06/2007",
+      "obra_social": "PAMI INSSJP",
+      "afiliado": "150995744503-03",
+      "telefono": "",
+      "pierna_habil": "Sin Definir"
+    },
+    {
+      "nombre": "VIGLIOCCO BRUNO LUCA",
+      "dni": "47739638",
+      "nacimiento": "18/01/2007",
+      "obra_social": "OSECAC",
+      "afiliado": "20228145751",
+      "telefono": "",
+      "pierna_habil": "Sin Definir"
+    },
+    {
+      "nombre": "YAMAGUCHI TOMOHIRO",
+      "dni": "96318996",
+      "nacimiento": "01/09/2007",
+      "obra_social": "ENSALUD",
+      "afiliado": "96318996",
+      "telefono": "",
+      "pierna_habil": "Sin Definir"
+    },
+    {
+      "nombre": "ACOSTA MATEO NAHUEL",
+      "dni": "48921891",
+      "nacimiento": "29/08/2008",
+      "obra_social": "uom",
+      "afiliado": "20489218918-053-00-03",
+      "telefono": "",
+      "pierna_habil": "Sin Definir"
+    },
+    {
+      "nombre": "ALMENDARIZ MARTIN",
+      "dni": "48498089",
+      "nacimiento": "01/04/2008",
+      "obra_social": "OSALARA",
+      "afiliado": "20227388677/04",
+      "telefono": "",
+      "pierna_habil": "Sin Definir"
+    },
+    {
+      "nombre": "ALZOGARAY MATEO",
+      "dni": "48766448",
+      "nacimiento": "27/03/2008",
+      "obra_social": "OSCHOCA",
+      "afiliado": "251613/03",
+      "telefono": "",
+      "pierna_habil": "Sin Definir"
+    },
+    {
+      "nombre": "AQUINO LAUTARO",
+      "dni": "48146383",
+      "nacimiento": "09/09/2008",
+      "obra_social": "SALUD INTEGRAL",
+      "afiliado": "500665-03",
+      "telefono": "",
+      "pierna_habil": "Sin Definir"
+    },
+    {
+      "nombre": "BALTAR FIGUEREDO AXEL",
+      "dni": "48888240",
+      "nacimiento": "15/04/2008",
+      "obra_social": "SANCOR SALUD",
+      "afiliado": "1696699/01",
+      "telefono": "",
+      "pierna_habil": "Sin Definir"
+    },
+    {
+      "nombre": "BENITEZ DANTE JOAQUIN",
+      "dni": "49058287",
+      "nacimiento": "12/10/2008",
+      "obra_social": "SANCOR SALUD",
+      "afiliado": "1564016/02",
+      "telefono": "",
+      "pierna_habil": "Sin Definir"
+    },
+    {
+      "nombre": "BENITEZ IAN EZEQUIEL",
+      "dni": "48362443",
+      "nacimiento": "28/02/2008",
+      "obra_social": "EN TRAMITE",
+      "afiliado": null,
+      "telefono": "",
+      "pierna_habil": "Sin Definir"
+    },
+    {
+      "nombre": "BORJA AXEL",
+      "dni": "48526881",
+      "nacimiento": "23/03/2008",
+      "obra_social": "ENSALUD",
+      "afiliado": "48526881",
+      "telefono": "",
+      "pierna_habil": "Sin Definir"
+    },
+    {
+      "nombre": "CACERES DYLAN LAUTARO",
+      "dni": "48643007",
+      "nacimiento": "02/05/2008",
+      "obra_social": "HOMINIS",
+      "afiliado": "1454205.01",
+      "telefono": "",
+      "pierna_habil": "Sin Definir"
+    },
+    {
+      "nombre": "CAGIANO IGNACIO",
+      "dni": "48794665",
+      "nacimiento": "10/06/2008",
+      "obra_social": "APSOT",
+      "afiliado": "136280318",
+      "telefono": "",
+      "pierna_habil": "Sin Definir"
+    },
+    {
+      "nombre": "CARABALLO BENJAMIN",
+      "dni": "48429879",
+      "nacimiento": "13/01/2008",
+      "obra_social": "ENSALUD",
+      "afiliado": "4842987900",
+      "telefono": "",
+      "pierna_habil": "Sin Definir"
+    },
+    {
+      "nombre": "CATANZANO LAUTARO CARLOS",
+      "dni": "48639132",
+      "nacimiento": "08/05/2008",
+      "obra_social": "OSDE",
+      "afiliado": "61802178603",
+      "telefono": "",
+      "pierna_habil": "Sin Definir"
+    },
+    {
+      "nombre": "DE ASIS JONATHAN DARIO",
+      "dni": "48714501",
+      "nacimiento": "03/04/2008",
+      "obra_social": "ENSALUD",
+      "afiliado": "4871450100",
+      "telefono": "",
+      "pierna_habil": "Sin Definir"
+    },
+    {
+      "nombre": "DIAZ ALAN LIONEL",
+      "dni": "48630023",
+      "nacimiento": "08/02/2008",
+      "obra_social": "OBSBA",
+      "afiliado": "90446214",
+      "telefono": "",
+      "pierna_habil": "Sin Definir"
+    },
+    {
+      "nombre": "DIAZ PINTO FACUNDO",
+      "dni": "48603795",
+      "nacimiento": "05/08/2008",
+      "obra_social": "ENSALUD",
+      "afiliado": "4860379500",
+      "telefono": "",
+      "pierna_habil": "Sin Definir"
+    },
+    {
+      "nombre": "FERNANDEZ AMIR",
+      "dni": "48687511",
+      "nacimiento": "14/04/2008",
+      "obra_social": "ENSALUD",
+      "afiliado": "48687511",
+      "telefono": "",
+      "pierna_habil": "Sin Definir"
+    },
+    {
+      "nombre": "GARCES DYLAN IVAN",
+      "dni": "49015574",
+      "nacimiento": "17/12/2008",
+      "obra_social": "EN TRAMITE",
+      "afiliado": null,
+      "telefono": "",
+      "pierna_habil": "Sin Definir"
+    },
+    {
+      "nombre": "GARIGLIO ENZO",
+      "dni": "48554325",
+      "nacimiento": "13/04/2008",
+      "obra_social": "SEMPRE",
+      "afiliado": "20485543253",
+      "telefono": "",
+      "pierna_habil": "Sin Definir"
+    },
+    {
+      "nombre": "GUERRERO AGÜERO ENZO",
+      "dni": "48714996",
+      "nacimiento": "05/06/2008",
+      "obra_social": "ENSALUD",
+      "afiliado": "4871499600",
+      "telefono": "",
+      "pierna_habil": "Sin Definir"
+    },
+    {
+      "nombre": "GUERRERO ARMOA ANGEL",
+      "dni": "48806865",
+      "nacimiento": "06/06/2008",
+      "obra_social": "PASTELEROS ELEVAR",
+      "afiliado": "20-93640188-1",
+      "telefono": "",
+      "pierna_habil": "Sin Definir"
+    },
+    {
+      "nombre": "INSAURRALDE URIEL",
+      "dni": "48594448",
+      "nacimiento": "30/03/2008",
+      "obra_social": "ENSALUD",
+      "afiliado": "4859494800",
+      "telefono": "",
+      "pierna_habil": "Sin Definir"
+    },
+    {
+      "nombre": "LEGUIZAMON ARON EZEQUIEL",
+      "dni": "48525275",
+      "nacimiento": "04/04/2008",
+      "obra_social": "ENSALUD",
+      "afiliado": "48525275",
+      "telefono": "",
+      "pierna_habil": "Sin Definir"
+    },
+    {
+      "nombre": "LOPEZ UDOVIN RAMIRO",
+      "dni": "48825623",
+      "nacimiento": "27/03/2008",
+      "obra_social": "ENSALUD",
+      "afiliado": "4882562300",
+      "telefono": "",
+      "pierna_habil": "Sin Definir"
+    },
+    {
+      "nombre": "MACIEL LUCAS FLORENCIO EZEQUIEL",
+      "dni": "48978708",
+      "nacimiento": "19/09/2008",
+      "obra_social": "ENSALUD",
+      "afiliado": "48978708",
+      "telefono": "",
+      "pierna_habil": "Sin Definir"
+    },
+    {
+      "nombre": "MATELLAN SAMUEL",
+      "dni": "48999328",
+      "nacimiento": "05/12/2008",
+      "obra_social": "OSDE",
+      "afiliado": "60 791361 3 05",
+      "telefono": "",
+      "pierna_habil": "Sin Definir"
+    },
+    {
+      "nombre": "NUÑEZ LAUTARO DAVID",
+      "dni": "48706175",
+      "nacimiento": "14/02/2008",
+      "obra_social": "ENSALUD",
+      "afiliado": "4870617500",
+      "telefono": "",
+      "pierna_habil": "Sin Definir"
+    },
+    {
+      "nombre": "NUÑEZ RODRIGUEZ LAURENCIO",
+      "dni": "48856916",
+      "nacimiento": "07/08/2008",
+      "obra_social": "OSPLAD",
+      "afiliado": "1164510619",
+      "telefono": "",
+      "pierna_habil": "Sin Definir"
+    },
+    {
+      "nombre": "PECILE MATIAS SEBASTIAN",
+      "dni": "48793325",
+      "nacimiento": "25/05/2008",
+      "obra_social": "UNION PERSONAL",
+      "afiliado": "02482915 03 2",
+      "telefono": "",
+      "pierna_habil": "Sin Definir"
+    },
+    {
+      "nombre": "PERALTA ORTIZ THAIEL",
+      "dni": "49007668",
+      "nacimiento": "21/09/2008",
+      "obra_social": "ENSALUD",
+      "afiliado": "4900766800",
+      "telefono": "",
+      "pierna_habil": "Sin Definir"
+    },
+    {
+      "nombre": "POZA AYRTON JOEL",
+      "dni": "48855969",
+      "nacimiento": "23/10/2008",
+      "obra_social": "OBSBA",
+      "afiliado": "235390813",
+      "telefono": "",
+      "pierna_habil": "Sin Definir"
+    },
+    {
+      "nombre": "RAYNELI SANTINO LUCA",
+      "dni": "48590169",
+      "nacimiento": "27/03/2008",
+      "obra_social": "OSDE",
+      "afiliado": "61634474002",
+      "telefono": "",
+      "pierna_habil": "Sin Definir"
+    },
+    {
+      "nombre": "SAPAYA ELIAS NEHUEN",
+      "dni": "48922738",
+      "nacimiento": "15/08/2008",
+      "obra_social": "SWISS MEDICAL",
+      "afiliado": "800006 7259392 03 0056",
+      "telefono": "",
+      "pierna_habil": "Sin Definir"
+    },
+    {
+      "nombre": "SILVA AARON LIONEL",
+      "dni": "48504880",
+      "nacimiento": "02/02/2008",
+      "obra_social": "ENSALUD",
+      "afiliado": "4850488000",
+      "telefono": "",
+      "pierna_habil": "Sin Definir"
+    },
+    {
+      "nombre": "VENTRE FRANCISCO",
+      "dni": "48637152",
+      "nacimiento": "01/08/2008",
+      "obra_social": "IOMA",
+      "afiliado": "2276231863/02",
+      "telefono": "",
+      "pierna_habil": "Sin Definir"
+    },
+    {
+      "nombre": "YOS MATEO",
+      "dni": "48360233",
+      "nacimiento": "17/02/2008",
+      "obra_social": "ENSALUD",
+      "afiliado": "48360233",
+      "telefono": "",
+      "pierna_habil": "Sin Definir"
+    },
+    {
+      "nombre": "ACOSTA BRANDON TAIEL",
+      "dni": "49429450",
+      "nacimiento": "19/05/2009",
+      "obra_social": "ENSALUD",
+      "afiliado": "42429450",
+      "telefono": "",
+      "pierna_habil": "Sin Definir"
+    },
+    {
+      "nombre": "AGGIO TOMAS",
+      "dni": "49055370",
+      "nacimiento": "03/01/2009",
+      "obra_social": "Accord Salud",
+      "afiliado": "306194032",
+      "telefono": "",
+      "pierna_habil": "Sin Definir"
+    },
+    {
+      "nombre": "ALVAREZ THIAGO ROMAN RAUL",
+      "dni": "49283313",
+      "nacimiento": "10/07/2009",
+      "obra_social": "OSPE",
+      "afiliado": "20-311007141-3 02",
+      "telefono": "",
+      "pierna_habil": "Sin Definir"
+    },
+    {
+      "nombre": "BACHES AGUSTIN DANIEL",
+      "dni": "49239414",
+      "nacimiento": "19/04/2009",
+      "obra_social": "EN TRAMITE",
+      "afiliado": null,
+      "telefono": "",
+      "pierna_habil": "Sin Definir"
+    },
+    {
+      "nombre": "BALSANO AGUSTIN EZEQUIEL",
+      "dni": "49516640",
+      "nacimiento": "17/04/2009",
+      "obra_social": "SANCOR SALUD",
+      "afiliado": "1294290/03",
+      "telefono": "",
+      "pierna_habil": "Sin Definir"
+    },
+    {
+      "nombre": "CABALLERO MEZA BRUNO BENJAMIN",
+      "dni": "50581204",
+      "nacimiento": "15/10/2010",
+      "obra_social": "ENSALUD",
+      "afiliado": "5058120400",
+      "telefono": "",
+      "pierna_habil": "Sin Definir"
+    },
+    {
+      "nombre": "CASTILLO IAN FRANCO",
+      "dni": "49725854",
+      "nacimiento": "30/10/2009",
+      "obra_social": "OSPIA",
+      "afiliado": "49725854",
+      "telefono": "",
+      "pierna_habil": "Sin Definir"
+    },
+    {
+      "nombre": "CEBALLOS NAZARENO NATANEL",
+      "dni": "49625640",
+      "nacimiento": "11/07/2009",
+      "obra_social": "ENSALUD",
+      "afiliado": "496256400",
+      "telefono": "",
+      "pierna_habil": "Sin Definir"
+    },
+    {
+      "nombre": "CHAPARRO MATEO",
+      "dni": "49475512",
+      "nacimiento": "24/03/2009",
+      "obra_social": "TVSALUD",
+      "afiliado": "092777/02",
+      "telefono": "",
+      "pierna_habil": "Sin Definir"
+    },
+    {
+      "nombre": "COLMAN SANTIAGO ROMAN",
+      "dni": "49364517",
+      "nacimiento": "01/03/2009",
+      "obra_social": "OSECAC",
+      "afiliado": "49364517",
+      "telefono": "",
+      "pierna_habil": "Sin Definir"
+    },
+    {
+      "nombre": "CONDE SHELBY LUCIANO",
+      "dni": "49517339",
+      "nacimiento": "22/04/2009",
+      "obra_social": "ENSALUD",
+      "afiliado": "4951733900",
+      "telefono": "",
+      "pierna_habil": "Sin Definir"
+    },
+    {
+      "nombre": "DATA LUCAS NICOLAS",
+      "dni": "49257400",
+      "nacimiento": "02/05/2009",
+      "obra_social": "ENSALUD",
+      "afiliado": "4925740000",
+      "telefono": "",
+      "pierna_habil": "Sin Definir"
+    },
+    {
+      "nombre": "DEL BLANCO MATEO",
+      "dni": "49394117",
+      "nacimiento": "18/05/2009",
+      "obra_social": "ENSALUD",
+      "afiliado": "49394117",
+      "telefono": "",
+      "pierna_habil": "Derecha"
+    },
+    {
+      "nombre": "DE GREGORIO BRIAN",
+      "dni": "49371574",
+      "nacimiento": "01/06/2009",
+      "obra_social": "OSPRERA",
+      "afiliado": "2770003582",
+      "telefono": "",
+      "pierna_habil": "Sin Definir"
+    },
+    {
+      "nombre": "DOMINGUEZ AYRTON BASTIAN",
+      "dni": "49606672",
+      "nacimiento": "17/06/2009",
+      "obra_social": "ENSALUD",
+      "afiliado": "4960667200",
+      "telefono": "",
+      "pierna_habil": "Sin Definir"
+    },
+    {
+      "nombre": "FALIA SANTIAGO",
+      "dni": "49076626",
+      "nacimiento": "05/01/2009",
+      "obra_social": "ENSALUD",
+      "afiliado": "49076626",
+      "telefono": "",
+      "pierna_habil": "Sin Definir"
+    },
+    {
+      "nombre": "FERANDEZ SANTINO TIZIANO",
+      "dni": "49462913",
+      "nacimiento": "07/04/2009",
+      "obra_social": "ENSALUD",
+      "afiliado": "4946291300",
+      "telefono": "",
+      "pierna_habil": "Sin Definir"
+    },
+    {
+      "nombre": "FERNANDEZ RUIZ AXEL LUIS",
+      "dni": "49260697",
+      "nacimiento": "14/01/2009",
+      "obra_social": "ENSALUD",
+      "afiliado": "4926069700",
+      "telefono": "",
+      "pierna_habil": "Sin Definir"
+    },
+    {
+      "nombre": "FERNANDEZ J OAQUIN QUIMEY",
+      "dni": "49060299",
+      "nacimiento": "17/02/2009",
+      "obra_social": "MEDIFE",
+      "afiliado": "3-06454297",
+      "telefono": "",
+      "pierna_habil": "Sin Definir"
+    },
+    {
+      "nombre": "FUENTES ALEJO GASTON",
+      "dni": "49626208",
+      "nacimiento": "27/06/2009",
+      "obra_social": "OSEIV",
+      "afiliado": "60856/01",
+      "telefono": "",
+      "pierna_habil": "Sin Definir"
+    },
+    {
+      "nombre": "HILARION ELISEO DAVID",
+      "dni": "49464588",
+      "nacimiento": "15/06/2009",
+      "obra_social": "CONATRUIT SALUD",
+      "afiliado": "49464588",
+      "telefono": "",
+      "pierna_habil": "Sin Definir"
+    },
+    {
+      "nombre": "YNSAURRALDE THIAGO",
+      "dni": "49377436",
+      "nacimiento": "05/03/2009",
+      "obra_social": "PREMEDIC",
+      "afiliado": "356595640201",
+      "telefono": "",
+      "pierna_habil": "Sin Definir"
+    },
+    {
+      "nombre": "LUNA DYLAN HERNAN",
+      "dni": "49303300",
+      "nacimiento": "02/03/2009",
+      "obra_social": "SANCOR SALUD",
+      "afiliado": "2160833/04",
+      "telefono": "",
+      "pierna_habil": "Sin Definir"
+    },
+    {
+      "nombre": "MACIEL THIAGO ENRIQUE",
+      "dni": "49693782",
+      "nacimiento": "09/09/2009",
+      "obra_social": "ENSALUD",
+      "afiliado": "4969378200",
+      "telefono": "",
+      "pierna_habil": "Sin Definir"
+    },
+    {
+      "nombre": "MEDINA NICOLAS",
+      "dni": "49905864",
+      "nacimiento": "04/12/2009",
+      "obra_social": "FUTBOLISTAS ARGENTINOS AGREMIADOS",
+      "afiliado": "OS-8960/2",
+      "telefono": "",
+      "pierna_habil": "Sin Definir"
+    },
+    {
+      "nombre": "MONTIVERO DIAZ LUCAS ARIEL",
+      "dni": "49377207",
+      "nacimiento": "25/02/2009",
+      "obra_social": "OSPOCE",
+      "afiliado": "56360806",
+      "telefono": "",
+      "pierna_habil": "Sin Definir"
+    },
+    {
+      "nombre": "MORENO CACERES THIAGO JAVIER",
+      "dni": "48921050",
+      "nacimiento": "19/01/2009",
+      "obra_social": "OSUTHGRA",
+      "afiliado": "27-33358915-5/02",
+      "telefono": "",
+      "pierna_habil": "Sin Definir"
+    },
+    {
+      "nombre": "NUÑEZ TIZIANO NAHUEL",
+      "dni": "49241504",
+      "nacimiento": "05/02/2009",
+      "obra_social": "HOMINIS H3.0",
+      "afiliado": "1430281-02",
+      "telefono": "",
+      "pierna_habil": "Sin Definir"
+    },
+    {
+      "nombre": "PANZUTO BENICIO",
+      "dni": "49303521",
+      "nacimiento": "24/04/2009",
+      "obra_social": "OSDE",
+      "afiliado": "62503598303",
+      "telefono": "",
+      "pierna_habil": "Sin Definir"
+    },
+    {
+      "nombre": "PAREDES THOMAS EMMANUEL",
+      "dni": "49680684",
+      "nacimiento": "11/08/2009",
+      "obra_social": "ENSALUD",
+      "afiliado": "4968068400",
+      "telefono": "",
+      "pierna_habil": "Sin Definir"
+    },
+    {
+      "nombre": "PARGA THIAGO AGUSTIN",
+      "dni": "49434645",
+      "nacimiento": "24/03/2009",
+      "obra_social": "SETIA",
+      "afiliado": "399515 20 988",
+      "telefono": "",
+      "pierna_habil": "Sin Definir"
+    },
+    {
+      "nombre": "PENDAS BIBLIONI VALENTIN",
+      "dni": "49373572",
+      "nacimiento": "12/03/2009",
+      "obra_social": "SWISS MEDICAL",
+      "afiliado": "800006 1981386 03 1008",
+      "telefono": "",
+      "pierna_habil": "Sin Definir"
+    },
+    {
+      "nombre": "PEREZ AGUSTIN IGNACIO",
+      "dni": "49315751",
+      "nacimiento": "05/02/2009",
+      "obra_social": "SWISS MEDICAL",
+      "afiliado": "800006 0141616 04 1001",
+      "telefono": "",
+      "pierna_habil": "Sin Definir"
+    },
+    {
+      "nombre": "PEREZ FERREIRA THIAGO BENJAMIN",
+      "dni": "49379798",
+      "nacimiento": null,
+      "obra_social": "ENSALUD",
+      "afiliado": "4937979800",
+      "telefono": "",
+      "pierna_habil": "Sin Definir"
+    },
+    {
+      "nombre": "RAGAZZI NORIEGA JOSUE LISANDRO",
+      "dni": "49939657",
+      "nacimiento": "20/08/2009",
+      "obra_social": "OSPE",
+      "afiliado": "20-34314225-101",
+      "telefono": "",
+      "pierna_habil": "Sin Definir"
+    },
+    {
+      "nombre": "RODRIGUEZ ALEJANDRO DAVID",
+      "dni": "49423503",
+      "nacimiento": "29/04/2009",
+      "obra_social": "ENSALUD",
+      "afiliado": "49423503",
+      "telefono": "",
+      "pierna_habil": "Sin Definir"
+    },
+    {
+      "nombre": "SAN MARTIN LUCIANO",
+      "dni": "49219732",
+      "nacimiento": "09/02/2009",
+      "obra_social": "EN TRAMITE",
+      "afiliado": null,
+      "telefono": "",
+      "pierna_habil": "Sin Definir"
+    },
+    {
+      "nombre": "SIGNORELLO SANTINO",
+      "dni": "49375728",
+      "nacimiento": "01/04/2009",
+      "obra_social": "OSDE 310",
+      "afiliado": "60 896875 6 04",
+      "telefono": "",
+      "pierna_habil": "Sin Definir"
+    },
+    {
+      "nombre": "SIMEONE RODRIGO LUIS",
+      "dni": "49740621",
+      "nacimiento": "24/09/2009",
+      "obra_social": "OSDE210",
+      "afiliado": "61137314803",
+      "telefono": "",
+      "pierna_habil": "Sin Definir"
+    },
+    {
+      "nombre": "ACOSTA GASTON",
+      "dni": "50061371",
+      "nacimiento": "27/01/2010",
+      "obra_social": "ENSALUD",
+      "afiliado": "50061371",
+      "telefono": "",
+      "pierna_habil": "Sin Definir"
+    },
+    {
+      "nombre": "ANDRADE ULLOA BAUTISTA",
+      "dni": "5011571",
+      "nacimiento": "04/04/2010",
+      "obra_social": "CAJA DE SERVICIOS SOCIALES DE SANTA CRUZ",
+      "afiliado": "113356000000000000",
+      "telefono": "",
+      "pierna_habil": "Sin Definir"
+    },
+    {
+      "nombre": "ANGO LUCAS AGUSTIN",
+      "dni": "50355266",
+      "nacimiento": "12/05/2010",
+      "obra_social": "ENSALUD",
+      "afiliado": "5035526600",
+      "telefono": "",
+      "pierna_habil": "Sin Definir"
+    },
+    {
+      "nombre": "BENITEZ JUAREZ TIZIANO",
+      "dni": "50319525",
+      "nacimiento": "05/05/2010",
+      "obra_social": "ENSALUD",
+      "afiliado": "50319525",
+      "telefono": "",
+      "pierna_habil": "Sin Definir"
+    },
+    {
+      "nombre": "BLANCO THIAGO BENJAMIN",
+      "dni": "50438265",
+      "nacimiento": "27/06/2010",
+      "obra_social": "SANCOR SALUD",
+      "afiliado": "1879842/02",
+      "telefono": "",
+      "pierna_habil": "Sin Definir"
+    },
+    {
+      "nombre": "BOGARIN HAZIEL LUIS",
+      "dni": "50056188",
+      "nacimiento": "10/03/2010",
+      "obra_social": "BAYRES PLAN",
+      "afiliado": "146726/1",
+      "telefono": "",
+      "pierna_habil": "Sin Definir"
+    },
+    {
+      "nombre": "CABALLERO MEZA BRUNO",
+      "dni": "50581204",
+      "nacimiento": "15/10/2010",
+      "obra_social": "ENSALUD",
+      "afiliado": "5058120400",
+      "telefono": "",
+      "pierna_habil": "Sin Definir"
+    },
+    {
+      "nombre": "CARRIZO SANTINO NAHUEL",
+      "dni": "50048099",
+      "nacimiento": "24/01/2010",
+      "obra_social": "ENSALUD",
+      "afiliado": "5004809900",
+      "telefono": "",
+      "pierna_habil": "Sin Definir"
+    },
+    {
+      "nombre": "CORBANI RAMIRO",
+      "dni": "50155617",
+      "nacimiento": "18/01/2010",
+      "obra_social": "MEDICUS",
+      "afiliado": "17665048000",
+      "telefono": "",
+      "pierna_habil": "Sin Definir"
+    },
+    {
+      "nombre": "DE OLIVERA THIAGO IGNACIO",
+      "dni": "50088090",
+      "nacimiento": "28/02/2010",
+      "obra_social": "OSPERYH",
+      "afiliado": "102397/02",
+      "telefono": "",
+      "pierna_habil": "Sin Definir"
+    },
+    {
+      "nombre": "ENCINA ROMAN IGNACIO",
+      "dni": "49806233",
+      "nacimiento": "16/01/2010",
+      "obra_social": "ENSALUD",
+      "afiliado": "4980623300",
+      "telefono": "",
+      "pierna_habil": "Sin Definir"
+    },
+    {
+      "nombre": "FERNANDEZ ENCINA LAUTARO",
+      "dni": "50125520",
+      "nacimiento": "15/03/2010",
+      "obra_social": "ENSALUD",
+      "afiliado": "5012552000",
+      "telefono": "",
+      "pierna_habil": "Sin Definir"
+    },
+    {
+      "nombre": "FRANCIOSA VITO",
+      "dni": "50088830",
+      "nacimiento": "22/02/2010",
+      "obra_social": "OSDE",
+      "afiliado": "613476890 04",
+      "telefono": "",
+      "pierna_habil": "Sin Definir"
+    },
+    {
+      "nombre": "GENEZ LEANDRO",
+      "dni": "50184948",
+      "nacimiento": "05/07/2010",
+      "obra_social": "ENSALUD",
+      "afiliado": "5018949800",
+      "telefono": "",
+      "pierna_habil": "Sin Definir"
+    },
+    {
+      "nombre": "GIGLIOTTI ORTIZ THIAGO",
+      "dni": "50415087",
+      "nacimiento": "26/06/2010",
+      "obra_social": "ACCORD 210",
+      "afiliado": "560262012",
+      "telefono": "",
+      "pierna_habil": "Sin Definir"
+    },
+    {
+      "nombre": "GRISOLIA THIAGO",
+      "dni": "50047805",
+      "nacimiento": "28/01/2010",
+      "obra_social": "OSPEDYC",
+      "afiliado": "23969994",
+      "telefono": "",
+      "pierna_habil": "Sin Definir"
+    },
+    {
+      "nombre": "HERBELLA RAFAEL",
+      "dni": "50155171",
+      "nacimiento": "10/04/2010",
+      "obra_social": "OSPJN",
+      "afiliado": "61168/22",
+      "telefono": "",
+      "pierna_habil": "Sin Definir"
+    },
+    {
+      "nombre": "LAZARTE BENJAMIN",
+      "dni": "50157274",
+      "nacimiento": "12/02/2010",
+      "obra_social": "OSCHOCA",
+      "afiliado": "224849/01",
+      "telefono": "",
+      "pierna_habil": "Sin Definir"
+    },
+    {
+      "nombre": "LEIVA JOHAN",
+      "dni": "50300654",
+      "nacimiento": "07/05/2010",
+      "obra_social": "ENSALUD",
+      "afiliado": "50300654",
+      "telefono": "",
+      "pierna_habil": "Sin Definir"
+    },
+    {
+      "nombre": "LEZCANO OVIEDO RAMIRO",
+      "dni": "49748281",
+      "nacimiento": "13/01/2010",
+      "obra_social": "UNION PERSONAL",
+      "afiliado": "02553274 02 0",
+      "telefono": "",
+      "pierna_habil": "Sin Definir"
+    },
+    {
+      "nombre": "MANSO GONZALEZ SANTIAGO",
+      "dni": "50133884",
+      "nacimiento": "26/03/2010",
+      "obra_social": "PODER JUDICIAL/IOMA",
+      "afiliado": "33533/22",
+      "telefono": "",
+      "pierna_habil": "Sin Definir"
+    },
+    {
+      "nombre": "MARTINEZ MARTIN",
+      "dni": "49944143",
+      "nacimiento": "19/02/2010",
+      "obra_social": "OSECAC",
+      "afiliado": "49944143",
+      "telefono": "",
+      "pierna_habil": "Sin Definir"
+    },
+    {
+      "nombre": "MEDINA REYES SANTIAGO",
+      "dni": "50102176",
+      "nacimiento": "27/01/2010",
+      "obra_social": "EN TRAMITE",
+      "afiliado": null,
+      "telefono": "",
+      "pierna_habil": "Sin Definir"
+    },
+    {
+      "nombre": "MORETTI BENJAMIN",
+      "dni": "50416863",
+      "nacimiento": "19/06/2010",
+      "obra_social": "SWISS MEDICAL",
+      "afiliado": "800006 72711510 03 0041",
+      "telefono": "",
+      "pierna_habil": "Sin Definir"
+    },
+    {
+      "nombre": "PACHECO LARES LUCIANO",
+      "dni": "50047919",
+      "nacimiento": "24/02/2010",
+      "obra_social": "OMINT",
+      "afiliado": "4 8081 749 01 01 9",
+      "telefono": "",
+      "pierna_habil": "Sin Definir"
+    },
+    {
+      "nombre": "PEREZ RUIZ GALO",
+      "dni": "50049640",
+      "nacimiento": "10/01/2010",
+      "obra_social": "ENSALUD",
+      "afiliado": "5004964000",
+      "telefono": "",
+      "pierna_habil": "Sin Definir"
+    },
+    {
+      "nombre": "PUYOS RAMIRO",
+      "dni": "50320160",
+      "nacimiento": "27/06/2010",
+      "obra_social": "OSDE",
+      "afiliado": "60 784395 0 05",
+      "telefono": "",
+      "pierna_habil": "Sin Definir"
+    },
+    {
+      "nombre": "RINALDI LAUTARO GABRIEL",
+      "dni": "50323308",
+      "nacimiento": "05/06/2010",
+      "obra_social": "OSDE",
+      "afiliado": "60 849085 6 04",
+      "telefono": "",
+      "pierna_habil": "Sin Definir"
+    },
+    {
+      "nombre": "RIQUELME LAUTARO MARTIN",
+      "dni": "50111207",
+      "nacimiento": "27/06/2010",
+      "obra_social": "OSPEDYC",
+      "afiliado": "2923904201",
+      "telefono": "",
+      "pierna_habil": "Sin Definir"
+    },
+    {
+      "nombre": "ROLDAN LAUTARO",
+      "dni": "50037782",
+      "nacimiento": "25/02/2010",
+      "obra_social": "ENSALUD",
+      "afiliado": "50037782",
+      "telefono": "",
+      "pierna_habil": "Sin Definir"
+    },
+    {
+      "nombre": "SANCHEZ RAMIRO",
+      "dni": "50141647",
+      "nacimiento": "05/03/2010",
+      "obra_social": "SANCORSALUD",
+      "afiliado": "2066192/02",
+      "telefono": "",
+      "pierna_habil": "Sin Definir"
+    },
+    {
+      "nombre": "SOLABARRIETA GALEANO LEONARDO",
+      "dni": "50049421",
+      "nacimiento": "27/02/2010",
+      "obra_social": "ENSALUD",
+      "afiliado": "5004942100",
+      "telefono": "",
+      "pierna_habil": "Sin Definir"
+    },
+    {
+      "nombre": "TEJADA CHRISTOPHER YAEL",
+      "dni": "50096117",
+      "nacimiento": "02/03/2010",
+      "obra_social": "ENSALUD",
+      "afiliado": "5009611700",
+      "telefono": "",
+      "pierna_habil": "Sin Definir"
+    },
+    {
+      "nombre": "TOGNOLA TOBIAS ALEXANDER",
+      "dni": "49591786",
+      "nacimiento": "10/01/2010",
+      "obra_social": "ENSALUD",
+      "afiliado": "4959178600",
+      "telefono": "",
+      "pierna_habil": "Sin Definir"
+    },
+    {
+      "nombre": "TORRES LUIS ALBERTO",
+      "dni": "49824304",
+      "nacimiento": "31/03/2010",
+      "obra_social": "GALENO",
+      "afiliado": "21092380203",
+      "telefono": "",
+      "pierna_habil": "Sin Definir"
+    },
+    {
+      "nombre": "VAZQUEZ EVER",
+      "dni": "50325977",
+      "nacimiento": null,
+      "obra_social": "OSPERYH",
+      "afiliado": "125869/04",
+      "telefono": "",
+      "pierna_habil": "Sin Definir"
+    },
+    {
+      "nombre": "VERGARA LEON THIAGO NAHUEL",
+      "dni": "50104248",
+      "nacimiento": "09/04/2010",
+      "obra_social": "ENSALUD",
+      "afiliado": "5010424800",
+      "telefono": "",
+      "pierna_habil": "Sin Definir"
+    },
+    {
+      "nombre": "AGUIRRE JONATHAN",
+      "dni": "50988534",
+      "nacimiento": "10/03/2011",
+      "obra_social": "ENSALUD",
+      "afiliado": "50988534",
+      "telefono": "",
+      "pierna_habil": "Sin Definir"
+    },
+    {
+      "nombre": "ALCARAZ JEREMIAS",
+      "dni": "51589994",
+      "nacimiento": "29/05/2011",
+      "obra_social": "ENSALUD",
+      "afiliado": "51058994",
+      "telefono": "",
+      "pierna_habil": "Sin Definir"
+    },
+    {
+      "nombre": "ARANDA GONZALO VALENTIN",
+      "dni": "50716667",
+      "nacimiento": "06/01/2011",
+      "obra_social": "ENSALUD",
+      "afiliado": "50716667",
+      "telefono": "",
+      "pierna_habil": "Sin Definir"
+    },
+    {
+      "nombre": "BERNAL ELIAS",
+      "dni": "50250100",
+      "nacimiento": "17/05/2011",
+      "obra_social": "SAMI",
+      "afiliado": "5-35659724-2",
+      "telefono": "",
+      "pierna_habil": "Sin Definir"
+    },
+    {
+      "nombre": "BRAMAJO VILLAFAÑE BENJAMIN",
+      "dni": "50695142",
+      "nacimiento": "08/01/2011",
+      "obra_social": "SWISS MEDICAL",
+      "afiliado": "800006 1477103 04 0000",
+      "telefono": "",
+      "pierna_habil": "Sin Definir"
+    },
+    {
+      "nombre": "CACERES GRAY TIZIANO EZEQUIEL",
+      "dni": "51067943",
+      "nacimiento": "23/03/2011",
+      "obra_social": "ENSALUD",
+      "afiliado": "51067943",
+      "telefono": "",
+      "pierna_habil": "Sin Definir"
+    },
+    {
+      "nombre": "CARLUCCIO VALENTINO",
+      "dni": "51511536",
+      "nacimiento": "07/10/2011",
+      "obra_social": "GALENO",
+      "afiliado": "14826440209",
+      "telefono": "",
+      "pierna_habil": "Sin Definir"
+    },
+    {
+      "nombre": "CASAL AXEL NICOLAS",
+      "dni": "51257800",
+      "nacimiento": "05/10/2011",
+      "obra_social": "EN TRAMITE",
+      "afiliado": null,
+      "telefono": "",
+      "pierna_habil": "Sin Definir"
+    },
+    {
+      "nombre": "CASCO DYLAN LUCAS",
+      "dni": "51058731",
+      "nacimiento": "04/05/2011",
+      "obra_social": "ENSALUD",
+      "afiliado": "51058731",
+      "telefono": "",
+      "pierna_habil": "Sin Definir"
+    },
+    {
+      "nombre": "CECERES RENZO AGUSTIN",
+      "dni": "51256653",
+      "nacimiento": "12/08/2011",
+      "obra_social": "ENSALUD",
+      "afiliado": "51256653",
+      "telefono": "",
+      "pierna_habil": "Sin Definir"
+    },
+    {
+      "nombre": "CHAVES IAN YAIR",
+      "dni": "51058777",
+      "nacimiento": "08/05/2011",
+      "obra_social": "ENSALUD",
+      "afiliado": "51058777",
+      "telefono": "",
+      "pierna_habil": "Sin Definir"
+    },
+    {
+      "nombre": "CISNEROS RAMIRO",
+      "dni": "51338873",
+      "nacimiento": "27/09/2011",
+      "obra_social": "ENSALUD",
+      "afiliado": "51338873",
+      "telefono": "",
+      "pierna_habil": "Sin Definir"
+    },
+    {
+      "nombre": "DIPIERO BRANDON",
+      "dni": "50774231",
+      "nacimiento": "12/01/2011",
+      "obra_social": "IOMA",
+      "afiliado": "24358900000000000",
+      "telefono": "",
+      "pierna_habil": "Sin Definir"
+    },
+    {
+      "nombre": "DOMINGUEZ BASTIAN",
+      "dni": "50801754",
+      "nacimiento": "08/01/2011",
+      "obra_social": "ENSALUD",
+      "afiliado": "50801754",
+      "telefono": "",
+      "pierna_habil": "Sin Definir"
+    },
+    {
+      "nombre": "FARFAN CABRERA SAMUEL ALEJO",
+      "dni": "51131758",
+      "nacimiento": "29/06/2011",
+      "obra_social": null,
+      "afiliado": null,
+      "telefono": "",
+      "pierna_habil": "Sin Definir"
+    },
+    {
+      "nombre": "FERNANDEZ JUAN DIEGO MARTIN",
+      "dni": "50832123",
+      "nacimiento": null,
+      "obra_social": "EN TRAMITE",
+      "afiliado": null,
+      "telefono": "",
+      "pierna_habil": "Sin Definir"
+    },
+    {
+      "nombre": "FILIPOWICZ JAN ALEJANDRO",
+      "dni": "50803341",
+      "nacimiento": "15/01/2011",
+      "obra_social": "DAS",
+      "afiliado": "4892000000000000",
+      "telefono": "",
+      "pierna_habil": "Sin Definir"
+    },
+    {
+      "nombre": "GODOY BAUTISTA",
+      "dni": "51067046",
+      "nacimiento": "19/03/2011",
+      "obra_social": "OMINT",
+      "afiliado": "17671207 00 02 9",
+      "telefono": "",
+      "pierna_habil": "Sin Definir"
+    },
+    {
+      "nombre": "GONZALEZ SILVERO ALEJANDRO",
+      "dni": "95964921",
+      "nacimiento": "26/01/2011",
+      "obra_social": "ENSALUD",
+      "afiliado": "95964921",
+      "telefono": "",
+      "pierna_habil": "Sin Definir"
+    },
+    {
+      "nombre": "JUVE BAUTISTA",
+      "dni": "51220791",
+      "nacimiento": "16/06/2011",
+      "obra_social": "Galeno",
+      "afiliado": "0212470302 03",
+      "telefono": "",
+      "pierna_habil": "Sin Definir"
+    },
+    {
+      "nombre": "LASCURIAN LEMOS JOHAN",
+      "dni": "50976976",
+      "nacimiento": "28/01/2011",
+      "obra_social": "ENSALUD",
+      "afiliado": "50976776",
+      "telefono": "",
+      "pierna_habil": "Sin Definir"
+    },
+    {
+      "nombre": "LEGUIZAMON IAN",
+      "dni": "50860713",
+      "nacimiento": "16/09/2011",
+      "obra_social": "EN TRAMITE",
+      "afiliado": null,
+      "telefono": "",
+      "pierna_habil": "Sin Definir"
+    },
+    {
+      "nombre": "MAGLIANO VITO",
+      "dni": "51330025",
+      "nacimiento": "11/08/2011",
+      "obra_social": "IOMA",
+      "afiliado": "22508400000000000",
+      "telefono": "",
+      "pierna_habil": "Sin Definir"
+    },
+    {
+      "nombre": "MANCILLA BAUTISTA DAVID",
+      "dni": "50763113",
+      "nacimiento": "11/01/2011",
+      "obra_social": "OSPE",
+      "afiliado": "20-32766443-04-06",
+      "telefono": "",
+      "pierna_habil": "Sin Definir"
+    },
+    {
+      "nombre": "MARTINEZ GAUTO AXEL",
+      "dni": "50904741",
+      "nacimiento": "26/01/2011",
+      "obra_social": "ENSALUD",
+      "afiliado": "50904741",
+      "telefono": "",
+      "pierna_habil": "Sin Definir"
+    },
+    {
+      "nombre": "MERLO JULIAN ALEJANDRO",
+      "dni": "51067701",
+      "nacimiento": "31/01/2011",
+      "obra_social": "SWISS MEDICAL",
+      "afiliado": "800005999999999994232832",
+      "telefono": "",
+      "pierna_habil": "Sin Definir"
+    },
+    {
+      "nombre": "MIELE TOMAS",
+      "dni": "50923735",
+      "nacimiento": "11/02/2011",
+      "obra_social": "ENSALUD",
+      "afiliado": "50923735",
+      "telefono": "",
+      "pierna_habil": "Sin Definir"
+    },
+    {
+      "nombre": "MOLINA SANTINO VALENTIN ISIDORO",
+      "dni": "51046723",
+      "nacimiento": "01/06/2011",
+      "obra_social": "ENSALUD",
+      "afiliado": "51046723",
+      "telefono": "",
+      "pierna_habil": "Sin Definir"
+    },
+    {
+      "nombre": "MUNARI MARTIN",
+      "dni": "50584286",
+      "nacimiento": "01/03/2011",
+      "obra_social": "SUPERINTENDENCIA DE BIENESTAR",
+      "afiliado": "115202/04",
+      "telefono": "",
+      "pierna_habil": "Sin Definir"
+    },
+    {
+      "nombre": "OTAZU IGNACIO",
+      "dni": "50905239",
+      "nacimiento": "25/01/2011",
+      "obra_social": "ENSALUD",
+      "afiliado": "50905239",
+      "telefono": "",
+      "pierna_habil": "Sin Definir"
+    },
+    {
+      "nombre": "PAPILLU MATEO ISAIAS",
+      "dni": "51219514",
+      "nacimiento": "26/06/2011",
+      "obra_social": "ENSALUD",
+      "afiliado": "51219514",
+      "telefono": "",
+      "pierna_habil": "Sin Definir"
+    },
+    {
+      "nombre": "POZA ALAN",
+      "dni": "51126193",
+      "nacimiento": "22/05/2011",
+      "obra_social": "Obsba",
+      "afiliado": "135390814",
+      "telefono": "",
+      "pierna_habil": "Sin Definir"
+    },
+    {
+      "nombre": "RODRIGUEZ IVAN",
+      "dni": "50827807",
+      "nacimiento": "18/01/2011",
+      "obra_social": "ENSALUD",
+      "afiliado": "50827807",
+      "telefono": "",
+      "pierna_habil": "Sin Definir"
+    },
+    {
+      "nombre": "RUIZ ANGEL GABRIEL",
+      "dni": "51067117",
+      "nacimiento": "12/03/2011",
+      "obra_social": "OSECAC",
+      "afiliado": "51067117",
+      "telefono": "",
+      "pierna_habil": "Sin Definir"
+    },
+    {
+      "nombre": "RUIZ MAYOL LUCIO",
+      "dni": "51220915",
+      "nacimiento": "20/06/2011",
+      "obra_social": "OSECAC",
+      "afiliado": "232500000000000",
+      "telefono": "",
+      "pierna_habil": "Sin Definir"
+    },
+    {
+      "nombre": "SAIZ SANTINO",
+      "dni": "50962813",
+      "nacimiento": "19/02/2011",
+      "obra_social": "SWISS MEDICAL",
+      "afiliado": "800006 0934042 03 1004",
+      "telefono": "",
+      "pierna_habil": "Sin Definir"
+    },
+    {
+      "nombre": "SALGUERO ANTHONY BASTIAN",
+      "dni": "50803383",
+      "nacimiento": "18/01/2011",
+      "obra_social": "ENSALUD",
+      "afiliado": "50803383",
+      "telefono": "",
+      "pierna_habil": "Sin Definir"
+    },
+    {
+      "nombre": "SORIANO TIZIANO",
+      "dni": "50904523",
+      "nacimiento": "19/01/2011",
+      "obra_social": "ENSALUD",
+      "afiliado": "50904523",
+      "telefono": "",
+      "pierna_habil": "Sin Definir"
+    },
+    {
+      "nombre": "TOLEDO TALIAN",
+      "dni": "50769790",
+      "nacimiento": "04/02/2011",
+      "obra_social": "ENSALUD",
+      "afiliado": "50769790",
+      "telefono": "",
+      "pierna_habil": "Sin Definir"
+    },
+    {
+      "nombre": "TORTELLA BENJAMIN",
+      "dni": "50691589",
+      "nacimiento": "10/10/2011",
+      "obra_social": "EN TRAMITE",
+      "afiliado": null,
+      "telefono": "",
+      "pierna_habil": "Sin Definir"
+    },
+    {
+      "nombre": "TRAISE GONZALO",
+      "dni": "50772047",
+      "nacimiento": "07/01/2011",
+      "obra_social": "ASI",
+      "afiliado": "5814503",
+      "telefono": "",
+      "pierna_habil": "Sin Definir"
+    },
+    {
+      "nombre": "ZOIA LAUTARO",
+      "dni": "51124258",
+      "nacimiento": "10/05/2011",
+      "obra_social": "DASUTEN",
+      "afiliado": "01-40537/21",
+      "telefono": "",
+      "pierna_habil": "Sin Definir"
+    },
+    {
+      "nombre": "diego turconi",
+      "dni": "28032766",
+      "nacimiento": "29/01/1980",
+      "obra_social": "dasuten",
+      "afiliado": "3423432-01",
+      "telefono": "1132314500",
+      "pierna_habil": "Izquierda"
+    },
+    {
+      "nombre": "gaston",
+      "dni": "28000000",
+      "nacimiento": null,
+      "obra_social": null,
+      "afiliado": null,
+      "telefono": null,
+      "pierna_habil": null
+    }
+  ]
+}
