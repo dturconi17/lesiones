@@ -188,7 +188,7 @@ with st.sidebar:
 
 
     # --- Imágenes superiores ---
-    st.image("sdc.png", use_container_width=True)
+    st.image("sdc.png", width="stretch")
     st.image("huracan-removebg-preview.png", width=120)
 
     st.divider()
@@ -1006,7 +1006,7 @@ elif st.session_state.vista == "matriz":
 
 
     
-    st.dataframe(df_reporte, use_container_width=True)
+    st.dataframe(df_reporte, width="stretch")
 
     st.subheader("📐 Vista matriz (pivot)")
 
@@ -1018,7 +1018,7 @@ elif st.session_state.vista == "matriz":
         fill_value=0
     )
 
-    st.dataframe(df_pivot, use_container_width=True)
+    st.dataframe(df_pivot, width="stretch")
 
 elif st.session_state.vista == "matriz3x3":
 
@@ -1109,7 +1109,7 @@ elif st.session_state.vista == "Jugadores":
     df_editado = st.data_editor(
         df_jugadores,
         num_rows="dynamic",
-        use_container_width=True,
+        width="stretch",
         column_config={
             "dni": st.column_config.TextColumn("DNI"),
             "nombre": st.column_config.TextColumn("Nombre"),
@@ -1184,7 +1184,7 @@ elif st.session_state.vista == "home":
                 "nacimiento": "Fecha de nacimiento",
                 "dias_para_cumple": "Días para cumplir años"
             }),
-            use_container_width=True,
+            width="stretch",
             hide_index=True
         )
 
@@ -1480,7 +1480,7 @@ elif st.session_state.vista == "pesos":
         hovermode="x unified"
     )
 
-    st.plotly_chart(fig, use_container_width=True)
+    st.plotly_chart(fig, width="stretch")
 
     st.dataframe(df_plot)
     
@@ -1615,7 +1615,7 @@ elif st.session_state.vista == "vision":
     else:
         st.dataframe(
             lesiones.sort_values("fecha_lesion", ascending=False),
-            use_container_width=True
+            width="stretch"
         )
         
         
@@ -1642,7 +1642,7 @@ elif st.session_state.vista == "vision":
 
             fig.update_layout(hovermode="x unified")
 
-            st.plotly_chart(fig, use_container_width=True)
+            st.plotly_chart(fig, width="stretch")
     st.subheader("📏 Perfil Antropométrico")
 
     if antro_jug.empty:
@@ -1687,7 +1687,7 @@ elif st.session_state.vista == "vision":
         if st.button("Ver historial antropométrico"):
             st.dataframe(
                 antro_jug.sort_values("FECHEVAL", ascending=False),
-                use_container_width=True
+                width="stretch"
             )
     st.subheader("🏋️ Test Nórdico")
 
@@ -1775,7 +1775,7 @@ elif st.session_state.vista == "vision":
         if st.button("Ver historial test nórdico"):
             st.dataframe(
                 nordico_jug.sort_values("Date UTC", ascending=False),
-                use_container_width=True
+                width="stretch"
             )
                     
 elif st.session_state.vista == "carga_nordico":
