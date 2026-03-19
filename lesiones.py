@@ -1880,7 +1880,7 @@ elif st.session_state.vista == "carga_nordico":
                 st.write("DEBUG: entrando al submit")
                 st.write("Path actual:", os.getcwd())
 
-                df_nordico = pd.read_excel("df_nordico_final.xlsx")
+                df_nordico = pd.read_excel("df_Nordico_final.xlsx")
 
                 nueva_fila = pd.DataFrame([{
                     "Name": nombre_jugador,
