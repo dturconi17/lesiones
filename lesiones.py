@@ -1911,7 +1911,7 @@ elif st.session_state.vista == "carga_nordico":
 
                 st.write("Filas después:", len(df_nordico))
 
-                df_nordico.to_excel("df_nordico_final.xlsx", index=False)
+                df_nordico.to_excel("df_Nordico_final.xlsx", index=False)
 
                 st.success("✅ Test nórdico guardado correctamente")
 
