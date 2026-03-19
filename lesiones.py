@@ -5,6 +5,27 @@ import matplotlib.image as mpimg
 import json
 from pathlib import Path
 
+st.markdown("""
+<style>
+section[data-testid="stSidebar"] {
+    background-color: #f5dce8;
+}
+
+details {
+    background-color: white;
+    border-radius: 8px;
+    padding: 5px;
+    margin-bottom: 8px;
+}
+
+summary {
+    font-size: 16px;
+    font-weight: bold;
+}
+</style>
+""", unsafe_allow_html=True)
+
+
 # ======================================================
 # CONFIG
 # ======================================================
@@ -186,57 +207,86 @@ if "vista" not in st.session_state:
 # ======================================================
 with st.sidebar:
 
+    # --- LOGOS ---
+    st.image("sdc.png", use_container_width=True)
+    st.image("huracan-removebg-preview.png", width=100)
 
-    # --- Imágenes superiores ---
-    st.image("sdc.png", width="stretch")
-    st.image("huracan-removebg-preview.png", width=120)
+    st.markdown("---")
 
-    st.divider()
-
-    # --- Título ---
-    st.title("📌 Menú")
-
-    # --- Botón Home ---
-    if st.button("🏠 Inicio"):
+    # --- HOME ---
+    if st.button("🏠 Inicio", use_container_width=True):
         st.session_state.vista = "home"
 
-    # --- Botones ---
-    if st.button("🩹 Cargar Lesiones"):
-        st.session_state.vista = "lesiones"
-        
-    if st.button("🩹 Cargar Antropometria"):
-        st.session_state.vista = "carga_antro"    
+    # =========================
+    # 📥 CARGA DE DATOS
+    # =========================
+    with st.expander("📥 Carga de datos", expanded=False):
 
-    if st.button("🩹 Cargar Nórdico"):
-        st.session_state.vista = "carga_nordico"         
-    
-    if st.button("📘 Descripción Lesiones"):
-        st.session_state.vista = "descripcion"
-        
-    if st.button("📘 Descripción Antropometricas"):
-        st.session_state.vista = "descripcion_antro"
+        if st.button("🩹 Lesiones", use_container_width=True):
+            st.session_state.vista = "lesiones"
 
-    if st.button("📘 Descripción de Nórdico"):
-        st.session_state.vista = "descripcion_nordico"
+        if st.button("📏 Antropometría", use_container_width=True):
+            st.session_state.vista = "carga_antro"
 
-    if st.button("📊 Variables 2x2"):
-        st.session_state.vista = "matriz"
+        if st.button("🏋️ Nórdico", use_container_width=True):
+            st.session_state.vista = "carga_nordico"
 
-    if st.button("📊 Variables 3x3"):
-        st.session_state.vista = "matriz3x3"
+    # =========================
+    # 📘 DESCRIPCIÓN
+    # =========================
+    with st.expander("📘 Análisis descriptivo", expanded=False):
 
-    if st.button("⚽︎ Maestro de Jugadores"):
-        st.session_state.vista = "Jugadores"
+        if st.button("Lesiones", use_container_width=True):
+            st.session_state.vista = "descripcion"
 
-    if st.button("⚽︎ Pesaje"):
-        st.session_state.vista = "pesos"
+        if st.button("Antropometría", use_container_width=True):
+            st.session_state.vista = "descripcion_antro"
 
-    if st.button("⚽🧑‍⚽️ Vision Jugador"):
-        st.session_state.vista = "vision"
+        if st.button("Nórdico", use_container_width=True):
+            st.session_state.vista = "descripcion_nordico"
 
-    st.divider()
+    # =========================
+    # 📊 ANÁLISIS AVANZADO
+    # =========================
+    with st.expander("📊 Análisis avanzado", expanded=False):
 
+        col1, col2 = st.columns(2)
 
+        with col1:
+            if st.button("2x2", use_container_width=True):
+                st.session_state.vista = "matriz"
+
+        with col2:
+            if st.button("3x3", use_container_width=True):
+                st.session_state.vista = "matriz3x3"
+
+    # =========================
+    # ⚽ JUGADORES
+    # =========================
+    with st.expander("⚽ Jugadores", expanded=False):
+
+        if st.button("Maestro", use_container_width=True):
+            st.session_state.vista = "Jugadores"
+
+        if st.button("Pesaje", use_container_width=True):
+            st.session_state.vista = "pesos"
+
+        if st.button("Visión jugador", use_container_width=True):
+            st.session_state.vista = "vision"
+
+    # =========================
+    # ⚙️ CONFIGURACION
+    # =========================
+    with st.expander("⚙️ Configuracion", expanded=False):
+
+        if st.button("ABM Usuarios", use_container_width=True):
+            st.session_state.vista = "abm_usuarios"
+        if st.button("ABM Lesiones", use_container_width=True):
+            st.session_state.vista = "abm_lesiones"            
+
+    # --- FOOTER ---
+    st.markdown("---")
+    st.caption("v1.0 | Sports Data App")
 
 # ======================================================
 # CARGA DE DATOS
@@ -1259,13 +1309,7 @@ elif st.session_state.vista == "lesiones":
             # ======================
             # DATOS DEL JUGADOR
             # ======================
-            dni = st.number_input(
-            "DNI *",
-                min_value=0,
-                step=1,
-                format="%d"
-            )
-            cod_club = st.text_input("Codificación club")
+            
             categoria = st.selectbox("Categoría *", config["categorias"])
             division = st.selectbox("División con la que entrena *",config["divisiones"])
             posicion = st.selectbox("Posición en el campo de juego *",config["posiciones"])
@@ -1381,13 +1425,12 @@ elif st.session_state.vista == "lesiones":
             submitted = st.form_submit_button("💾 Guardar lesión")
 
         if submitted:
-            if dni == "" or cod_club == "" or categoria == "Sin Definir" or division == "Sin Definir"or posicion == "Sin Definir"or definicion_lesion == "Sin Definir" or donde_ocurrio == "Sin Definir" or cual_trastorno == "Sin Definir" or campo_juego == "Sin Definir" or cancha == "Sin Definir" or momento == "Sin Definir" or sector_cuerpo == "Sin Definir" or lado_cuerpo == "Sin Definir" or lugar_lesion == "Sin Definir" or diagnostico1 == "Sin Definir" or tipo_lesion == "Sin Definir" or causa_lesion == "Sin Definir" or modo_inicio == "Sin Definir" or accion_juego == "Sin Definir" or tipo_de_lesion == "Sin Definir" or tratamiento_inicial == "Sin Definir":
+            if dni == "" or categoria == "Sin Definir" or division == "Sin Definir"or posicion == "Sin Definir"or definicion_lesion == "Sin Definir" or donde_ocurrio == "Sin Definir" or cual_trastorno == "Sin Definir" or campo_juego == "Sin Definir" or cancha == "Sin Definir" or momento == "Sin Definir" or sector_cuerpo == "Sin Definir" or lado_cuerpo == "Sin Definir" or lugar_lesion == "Sin Definir" or diagnostico1 == "Sin Definir" or tipo_lesion == "Sin Definir" or causa_lesion == "Sin Definir" or modo_inicio == "Sin Definir" or accion_juego == "Sin Definir" or tipo_de_lesion == "Sin Definir" or tratamiento_inicial == "Sin Definir":
                 st.error("⚠️ Completá los campos obligatorios")
             else:
                 data_lesion = {
                     "tipo":"lesion 2026",
                     "dni": dni,
-                    "cod_club": cod_club,
                     "categoria": categoria,
                     "division": division,
                     "posicion": posicion,
@@ -1485,10 +1528,14 @@ elif st.session_state.vista == "pesos":
     st.dataframe(df_plot)
     
 elif st.session_state.vista == "vision":
-    st.title("🧑‍⚽️ Vision Jugador")
+    
+    import plotly.express as px
+    import plotly.graph_objects as go
+
+    st.title("🧑‍⚽️ Player Dashboard")
 
     # ==============================
-    # INPUT PRIMERO
+    # INPUT
     # ==============================
     dni = st.text_input("Ingresá el DNI del jugador")
 
@@ -1501,282 +1548,209 @@ elif st.session_state.vista == "vision":
     # CARGA DE DATOS
     # ==============================
 
-    # ANTROPOMETRÍA
+    # ANTRO
     df_antro = pd.read_excel("df_antropometría_final.xlsx")
     df_antro.columns = df_antro.columns.str.strip()
-
-    
-    # asegurar que la fecha esté en formato datetime
     df_antro["FECHEVAL"] = pd.to_datetime(df_antro["FECHEVAL"], errors="coerce")
 
-    # columnas a ajustar
-    cols = ["MA (%)", "MM (%)"]
+    mask_2025 = df_antro["FECHEVAL"].dt.year == 2025
+    df_antro.loc[mask_2025, ["MA (%)", "MM (%)"]] *= 100
 
-    # condición año 2025
-    mask = df_antro["FECHEVAL"].dt.year == 2025
-
-    # multiplicar por 100 solo esos registros
-    df_antro.loc[mask, cols] = df_antro.loc[mask, cols] * 100
-        
-        
     mask = df_antro["%OSEO"].isna()
-
     df_antro.loc[mask, "masa_residual"] = df_antro.loc[mask, "PESO"] * 0.24
     df_antro.loc[mask, "masa_osea"] = df_antro.loc[mask, "PESO"] - (
         df_antro.loc[mask, "MA (Kg)"] +
         df_antro.loc[mask, "MM (Kg)"] +
         df_antro.loc[mask, "masa_residual"]
     )
+    df_antro.loc[mask, "%OSEO"] = df_antro.loc[mask, "masa_osea"] / df_antro.loc[mask, "PESO"] * 100
 
-    df_antro.loc[mask, "%OSEO"] = df_antro.loc[mask, "masa_osea"] / df_antro.loc[mask, "PESO"] * 100    
-    
-    df_antro["DNI"] = (
-        df_antro["DNI"]
-        .astype(str)
-        .str.replace(r"\D", "", regex=True)
-    )
-
+    df_antro["DNI"] = df_antro["DNI"].astype(str).str.replace(r"\D", "", regex=True)
     antro_jug = df_antro[df_antro["DNI"] == dni].copy()
-    
-    
 
     # JUGADORES
-    with open("df_juveniles.json", "r", encoding="utf-8") as f:
-        data_jug = json.load(f)
-
-    df_jug = pd.DataFrame(data_jug["maestro_jugadores"])
+    df_jug = pd.DataFrame(json.load(open("df_juveniles.json"))["maestro_jugadores"])
     df_jug["dni"] = df_jug["dni"].astype(str)
 
     # LESIONES
-    with open("df_lesiones.json", "r", encoding="utf-8") as f:
-        data_les = json.load(f)
-
-    df_les = pd.DataFrame(data_les["lesiones"])
+    df_les = pd.DataFrame(json.load(open("df_lesiones.json"))["lesiones"])
     df_les["dni"] = df_les["dni"].astype(str)
 
     # PESOS
     df_pesos = pd.read_excel("df_pesos.xlsx")
-    df_pesos["dni"] = (
-    df_pesos["DNI"]
-    .fillna(0)
-    .astype(float)
-    .astype(int)
-    .astype(str)
-    )
-    
-    # ==============================
-    # VALIDACIÓN JUGADOR
-    # ==============================
+    df_pesos["dni"] = df_pesos["DNI"].fillna(0).astype(int).astype(str)
 
+    # NÓRDICO
+    df_nordico = cargar_nordico()
+
+    # ==============================
+    # VALIDACIÓN
+    # ==============================
     jugador = df_jug[df_jug["dni"] == dni]
 
     if jugador.empty:
         st.warning("No se encontró el jugador")
         st.stop()
-        
-    # ==============================
-    # FILTRADOS POR JUGADOR
-    # ==============================
 
     lesiones_jug = df_les[df_les["dni"] == dni]
     pesos_jug = df_pesos[df_pesos["dni"] == dni].copy()
-
     pesos_jug["fecha"] = pd.to_datetime(pesos_jug["fecha"], errors="coerce")
     pesos_jug = pesos_jug.dropna(subset=["fecha"])
-    
-    
-    st.metric("Lesiones registradas", len(lesiones_jug))
+
+    # ANTRO
+    if not antro_jug.empty:
+        antro_jug = antro_jug.sort_values("FECHEVAL")
+        ultimo_registro = antro_jug.iloc[-1]
+    else:
+        ultimo_registro = None
+
+    # NORDICO
+    nordico_jug = df_nordico[df_nordico["DNI"] == dni].copy()
+    if not nordico_jug.empty:
+        nordico_jug["Date UTC"] = pd.to_datetime(nordico_jug["Date UTC"], errors="coerce")
+        nordico_jug = nordico_jug.sort_values("Date UTC")
+        ultimo = nordico_jug.iloc[-1]
+    else:
+        ultimo = None
+
+    # ==============================
+    # HEADER
+    # ==============================
+    st.markdown(f"""
+    ### {jugador.iloc[0]["nombre"]}
+    📅 {jugador.iloc[0]["nacimiento"]} | 📞 {jugador.iloc[0]["telefono"]} | 🦵 {jugador.iloc[0]["pierna_habil"]}
+    """)
+
+    # ==============================
+    # KPIs
+    # ==============================
+    st.markdown("## 📊 Indicadores clave")
+
+    col1, col2, col3, col4 = st.columns(4)
+
+    col1.metric("🩹 Lesiones", len(lesiones_jug))
 
     if not pesos_jug.empty:
-        st.metric(
-            "Último peso",
-            round(pesos_jug.sort_values("fecha").iloc[-1]["peso"], 1)
-        )
+        col2.metric("⚖️ Peso", round(pesos_jug.iloc[-1]["peso"], 1))
 
-
-    st.subheader("📋 Datos del jugador")
-
-    col1, col2 = st.columns(2)
-
-    with col1:
-        st.write("**Nombre:**", jugador.iloc[0]["nombre"])
-        st.write("**Fecha nacimiento:**", jugador.iloc[0]["nacimiento"])
-
-    with col2:
-        st.write("**Teléfono:**", jugador.iloc[0]["telefono"])
-        st.write("**Pierna hábil:**", jugador.iloc[0]["pierna_habil"])
-        
-    st.subheader("🩹 Historial de lesiones")
-
-    lesiones = df_les[df_les["dni"] == dni]
-
-    if lesiones.empty:
-        st.info("El jugador no registra lesiones")
-    else:
-        st.dataframe(
-            lesiones.sort_values("fecha_lesion", ascending=False),
-            width="stretch"
-        )
-        
-        
-    if pesos_jug.empty:
-        st.info("No hay registros de peso")
-    else:
-        pesos_jug["fecha"] = pd.to_datetime(pesos_jug["fecha"], errors="coerce")
-        pesos = pesos_jug.dropna(subset=["fecha"])
-
-        if pesos_jug.empty:
-            st.info("No hay fechas válidas para graficar")
-        else:
-            import plotly.express as px
-
-            st.subheader("⚖️ Evolución del peso")
-
-            fig = px.line(
-                pesos_jug.sort_values("fecha"),
-                x="fecha",
-                y="peso",
-                markers=True,
-                title="Evolución del peso"
-            )
-
-            fig.update_layout(hovermode="x unified")
-
-            st.plotly_chart(fig, width="stretch")
-    st.subheader("📏 Perfil Antropométrico")
-
-    if antro_jug.empty:
-        st.info("No hay datos antropométricos registrados")
-
-    else:
-
-        antro_jug["FECHEVAL"] = pd.to_datetime(antro_jug["FECHEVAL"], errors="coerce")
-        antro_jug = antro_jug.sort_values("FECHEVAL")
-
-        ultimo_registro = antro_jug.iloc[-1]
-
-        # Aviso si hay más registros
-        if len(antro_jug) > 1:
-            st.caption(f"Hay {len(antro_jug)} evaluaciones antropométricas registradas")
-
-        # FILA 1
-        col1, col2, col3, col4 = st.columns(4)
-
-        col1.metric("Peso (kg)", ultimo_registro["PESO"])
-        col2.metric("Talla (cm)", ultimo_registro["TALLA"])
+    if ultimo_registro is not None:
         col3.metric("IMC", round(ultimo_registro["IMC"], 2))
-        col4.metric("Edad", ultimo_registro["EDAD"])
+        col4.metric("MM (%)", round(ultimo_registro["MM (%)"], 1))
 
-        # FILA 2
-        col5, col6, col7, col8 = st.columns(4)
+    # ==============================
+    # ESTADO GLOBAL
+    # ==============================
+    st.markdown("## 🚨 Estado del jugador")
 
-        col5.metric("MA (%)", ultimo_registro["MA (%)"])
-        col6.metric("MA (kg)", ultimo_registro["MA (Kg)"])
-        col7.metric("MM (%)", ultimo_registro["MM (%)"])
-        col8.metric("MM (kg)", ultimo_registro["MM (Kg)"])
+    if ultimo is not None:
+        imbalance = ultimo["Max Imbalance (%)"]
 
-        # FILA 3
-        col9, col10, col11, col12 = st.columns(4)
+        if imbalance > 15:
+            st.error("🔴 Alto riesgo físico")
+        elif imbalance > 10:
+            st.warning("🟠 Riesgo moderado")
+        else:
+            st.success("🟢 Buen estado físico")
 
-        col9.metric("% Óseo", ultimo_registro["%OSEO"])
-        col10.metric("MO", ultimo_registro["MO"])
-        col11.metric("IMO", ultimo_registro["IMO"])
-        col12.metric("Sum 6 pl", ultimo_registro["Sum 6 pl"])
-        
-        # Mostrar historial si el usuario quiere verlo
-        if st.button("Ver historial antropométrico"):
-            st.dataframe(
-                antro_jug.sort_values("FECHEVAL", ascending=False),
-                width="stretch"
-            )
-    st.subheader("🏋️ Test Nórdico")
+    # ==============================
+    # RADAR + SCORE
+    # ==============================
+    if ultimo_registro is not None and ultimo is not None:
 
-    df_nordico = cargar_nordico()
+        def norm(v, minv, maxv):
+            return max(0, min(100, (v - minv) / (maxv - minv) * 100))
 
-    nordico_jug = df_nordico[df_nordico["DNI"] == dni].copy()
-    
-    if nordico_jug.empty:
-        st.info("No hay datos de test nórdico registrados")
+        variables = {
+            "MM": norm(ultimo_registro["MM (%)"], 30, 60),
+            "MA": norm(ultimo_registro["MA (%)"], 5, 25),
+            "Óseo": norm(ultimo_registro["%OSEO"], 10, 20),
+            "IMC": norm(ultimo_registro["IMC"], 18, 28),
+            "Fuerza": norm(ultimo["L Max Force (N)"], 100, 400),
+            "Balance": 100 - norm(ultimo["Max Imbalance (%)"], 0, 20)
+        }
 
+        categorias = list(variables.keys())
+        valores = list(variables.values())
+
+        # SCORE
+        score = sum(valores) / len(valores)
+        st.metric("⭐ Score general", round(score, 1))
+
+        categorias += [categorias[0]]
+        valores += [valores[0]]
+
+        fig = go.Figure()
+
+        fig.add_trace(go.Scatterpolar(
+            r=valores,
+            theta=categorias,
+            fill='toself',
+            name='Jugador'
+        ))
+
+        fig.add_trace(go.Scatterpolar(
+            r=[60, 50, 55, 50, 65, 70, 60],
+            theta=categorias,
+            fill='toself',
+            opacity=0.3,
+            name='Promedio'
+        ))
+
+        fig.update_layout(polar=dict(radialaxis=dict(range=[0, 100])))
+        st.plotly_chart(fig, use_container_width=True)
+
+    # ==============================
+    # PESO
+    # ==============================
+    st.markdown("## ⚖️ Evolución física")
+
+    if not pesos_jug.empty:
+        fig = px.line(pesos_jug, x="fecha", y="peso", markers=True)
+        st.plotly_chart(fig, use_container_width=True)
+
+    # ==============================
+    # ANTRO
+    # ==============================
+    if ultimo_registro is not None:
+        st.markdown("## 📏 Perfil corporal")
+
+        cols = st.columns(4)
+        cols[0].metric("Peso", ultimo_registro["PESO"])
+        cols[1].metric("Talla", ultimo_registro["TALLA"])
+        cols[2].metric("IMC", round(ultimo_registro["IMC"], 2))
+        cols[3].metric("Edad", ultimo_registro["EDAD"])
+
+    # ==============================
+    # NORDICO
+    # ==============================
+    if ultimo is not None:
+        st.markdown("## 🏋️ Rendimiento")
+
+        cols = st.columns(4)
+        cols[0].metric("L Force", round(ultimo["L Max Force (N)"], 1))
+        cols[1].metric("R Force", round(ultimo["R Max Force (N)"], 1))
+        cols[2].metric("L Torque", round(ultimo["L Max Torque (Nm)"], 1))
+        cols[3].metric("R Torque", round(ultimo["R Max Torque (Nm)"], 1))
+
+    # ==============================
+    # LESIONES
+    # ==============================
+    st.markdown("## 🩹 Historial médico")
+
+    if lesiones_jug.empty:
+        st.success("Sin lesiones")
     else:
+        st.dataframe(lesiones_jug, use_container_width=True)
 
-        # ==============================
-        # LIMPIEZA Y ORDEN
-        # ==============================
-        nordico_jug["Date UTC"] = pd.to_datetime(
-            nordico_jug["Date UTC"],
-            errors="coerce"
-        )
+    # ==============================
+    # HISTORIALES
+    # ==============================
+    with st.expander("Antropometría histórica"):
+        st.dataframe(antro_jug)
 
-        nordico_jug = nordico_jug.sort_values("Date UTC")
+    with st.expander("Nórdico histórico"):
+        st.dataframe(nordico_jug)
 
-        ultimo = nordico_jug.iloc[-1]
-
-        # ==============================
-        # INFO GENERAL
-        # ==============================
-        if len(nordico_jug) > 1:
-            st.caption(f"Hay {len(nordico_jug)} tests registrados")
-
-        # ==============================
-        # FILA 1 - FUERZA
-        # ==============================
-        col1, col2, col3, col4 = st.columns(4)
-
-        col1.metric("L Max Force (N)", round(ultimo["L Max Force (N)"], 1))
-        col2.metric("R Max Force (N)", round(ultimo["R Max Force (N)"], 1))
-        col3.metric("L Avg Force (N)", round(ultimo["L Avg Force (N)"], 1))
-        col4.metric("R Avg Force (N)", round(ultimo["R Avg Force (N)"], 1))
-
-        # ==============================
-        # FILA 2 - TORQUE / IMPULSE
-        # ==============================
-        col5, col6, col7, col8 = st.columns(4)
-
-        col5.metric("L Max Torque (Nm)", round(ultimo["L Max Torque (Nm)"], 1))
-        col6.metric("R Max Torque (Nm)", round(ultimo["R Max Torque (Nm)"], 1))
-        col7.metric("L Max Impulse", round(ultimo["L Max Impulse (Ns)"], 1))
-        col8.metric("R Max Impulse", round(ultimo["R Max Impulse (Ns)"], 1))
-
-        # ==============================
-        # FILA 3 - REPETICIONES + IMBALANCE
-        # ==============================
-        col9, col10, col11, col12 = st.columns(4)
-
-        col9.metric("L Reps", ultimo["L Reps"])
-        col10.metric("R Reps", ultimo["R Reps"])
-        col11.metric("Max Imbalance (%)", round(ultimo["Max Imbalance (%)"], 2))
-        col12.metric("Avg Imbalance (%)", round(ultimo["Avg Imbalance (%)"], 2))
-
-        # ==============================
-        # ALERTA DE RIESGO
-        # ==============================
-        try:
-            if ultimo["Max Imbalance (%)"] > 15:
-                st.error("⚠️ Alto desbalance detectado (>15%) - riesgo de lesión")
-            elif ultimo["Max Imbalance (%)"] > 10:
-                st.warning("⚠️ Desbalance moderado (>10%)")
-            else:
-                st.success("✅ Balance dentro de parámetros normales")
-        except:
-            pass
-
-        # ==============================
-        # INFO EXTRA
-        # ==============================
-        col13, col14 = st.columns(2)
-
-        col13.metric("Device", ultimo["Device"])
-        col14.metric("Test", ultimo["Test"])
-
-        # ==============================
-        # HISTORIAL
-        # ==============================
-        if st.button("Ver historial test nórdico"):
-            st.dataframe(
-                nordico_jug.sort_values("Date UTC", ascending=False),
-                width="stretch"
-            )
                     
 elif st.session_state.vista == "carga_nordico":
     
