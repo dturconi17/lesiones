@@ -26,6 +26,36 @@ summary {
 """, unsafe_allow_html=True)
 
 
+st.markdown("""
+<style>
+
+/* FONDO PRINCIPAL */
+.stApp {
+    background-color: #f5f5f5;  /* o el color que quieras */
+}
+
+/* SIDEBAR */
+section[data-testid="stSidebar"] {
+    background-color: #f5dce8;
+}
+
+/* TEXTO GENERAL */
+h1, h2, h3, h4, h5, h6, p, span {
+    color: #111827;
+}
+
+</style>
+""", unsafe_allow_html=True)
+
+st.markdown("""
+<style>
+[data-testid="stMetricValue"] {
+    color: #111827;
+    font-weight: bold;
+}
+</style>
+""", unsafe_allow_html=True)
+
 # ======================================================
 # CONFIG
 # ======================================================
