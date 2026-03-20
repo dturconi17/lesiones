@@ -7,10 +7,55 @@ from pathlib import Path
 
 st.markdown("""
 <style>
+
+/* =========================
+   FONDO GLOBAL
+========================= */
+.stApp {
+    background-color: #f5f5f5;
+}
+
+/* =========================
+   TEXTO GLOBAL (CLAVE 🔥)
+========================= */
+html, body, [class*="css"]  {
+    color: #111827 !important;
+}
+
+/* TITULOS */
+h1, h2, h3, h4, h5, h6 {
+    color: #111827 !important;
+}
+
+/* LABELS */
+label, .stTextInput label {
+    color: #111827 !important;
+}
+
+/* INPUTS */
+input {
+    background-color: #ffffff !important;
+    color: #111827 !important;
+}
+
+/* BOTONES */
+button {
+    background-color: #1f2937 !important;
+    color: white !important;
+    border-radius: 8px;
+}
+
+/* METRICS */
+[data-testid="stMetricValue"] {
+    color: #111827 !important;
+}
+
+/* SIDEBAR */
 section[data-testid="stSidebar"] {
     background-color: #f5dce8;
 }
 
+/* EXPANDERS */
 details {
     background-color: white;
     border-radius: 8px;
@@ -21,29 +66,9 @@ details {
 summary {
     font-size: 16px;
     font-weight: bold;
-}
-</style>
-""", unsafe_allow_html=True)
-
-
-st.markdown("""
-<style>
-
-/* FONDO PRINCIPAL */
-.stApp {
-    background-color: #f5f5f5;  /* fondo */
+    color: #111827 !important;
 }
 
-
-</style>
-""", unsafe_allow_html=True)
-
-st.markdown("""
-<style>
-[data-testid="stMetricValue"] {
-    color: #111827;
-    font-weight: bold;
-}
 </style>
 """, unsafe_allow_html=True)
 
