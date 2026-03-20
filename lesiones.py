@@ -72,6 +72,62 @@ summary {
 </style>
 """, unsafe_allow_html=True)
 
+st.markdown("""
+<style>
+
+/* =========================
+   EXPANDER (contenedor)
+========================= */
+details {
+    background-color: #f9fafb !important;  /* gris claro */
+    border-radius: 10px;
+    padding: 8px;
+    margin-bottom: 10px;
+}
+
+/* =========================
+   TITULO (summary)
+========================= */
+summary {
+    background-color: #e5e7eb !important;  /* gris suave */
+    color: #111827 !important;
+    padding: 10px;
+    border-radius: 8px;
+    font-weight: 600;
+}
+
+/* =========================
+   HOVER
+========================= */
+summary:hover {
+    background-color: #d1d5db !important;
+    color: #111827 !important;
+}
+
+/* =========================
+   EXPANDIDO (abierto)
+========================= */
+details[open] > summary {
+    background-color: #1f2937 !important;  /* oscuro */
+    color: white !important;
+}
+
+/* =========================
+   BOTONES DENTRO
+========================= */
+button[kind="secondary"] {
+    background-color: #1f2937 !important;
+    color: white !important;
+    border-radius: 8px;
+}
+
+button[kind="secondary"]:hover {
+    background-color: #374151 !important;
+}
+
+</style>
+""", unsafe_allow_html=True)
+
 # ======================================================
 # CONFIG
 # ======================================================
